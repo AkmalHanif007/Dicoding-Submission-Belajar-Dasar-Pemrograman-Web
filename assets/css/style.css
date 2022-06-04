@@ -1,16 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* HEADER */
+/* CLASSES */
+
+.card {
+  box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 850px;
+}
 
 .image-logo {
   width: 200px;
 }
+
+.image-profile {
+  width: 150px;
+}
+
+/* END CLASSES */
+
+/* HEADER */
 
 .jumbotron {
   display: flex;
@@ -42,9 +62,15 @@ body {
   line-height: 30px;
 }
 
+header {
+  display: inline;
+}
+
 nav {
   background-color: yellow;
   padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 nav li {
@@ -65,7 +91,33 @@ nav a:hover {
 /* END HEADER */
 
 /* MAIN */
+
+main {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  text-align: justify;
+}
+
+aside {
+  margin-left: 30px;
+}
+
+.penulis header {
+  text-align: center;
+}
+
 /* END MAIN */
 
 /* FOOTER */
+
+footer {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: royalblue;
+  padding: 15px;
+}
+
 /* END FOOTER */
