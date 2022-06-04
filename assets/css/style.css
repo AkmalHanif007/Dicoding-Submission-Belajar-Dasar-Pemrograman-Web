@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.image-logo {
+  width: 200px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: royalblue;
+  padding: 30px;
+}
+
+.jumbotron-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.jumbotron-text h1 {
+  font-size: 50px;
+  line-height: 30px;
+}
+
+.jumbotron-text p {
+  background-color: rgba(255, 240, 0);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+nav {
+  background-color: yellow;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+/* END HEADER */
+
+/* MAIN */
+/* END MAIN */
+
+/* FOOTER */
+/* END FOOTER */
